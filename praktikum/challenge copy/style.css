@@ -1,0 +1,60 @@
+* {
+  font-family: "Roboto", Georgia;
+}
+
+body {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  gap: 30px;
+  color: #333;
+}
+
+.container-img {
+  width: 30%;
+  padding: 20px;
+}
+
+.container-desk {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#headline-saya {
+  color: #333;
+}
+
+#desk {
+  color: #333;
+}
+
+#my-img {
+  width: 250px;
+  border: solid white 3px;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#my-img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

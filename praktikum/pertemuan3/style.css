@@ -1,0 +1,22 @@
+.div-pertama {
+  background-color: lightgreen;
+}
+
+.div-kedua {
+  background-color: tomato;
+}
+
+.div-ketiga {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.div-31 {
+  background-color: lightpink;
+}
+
+.div-32 {
+  background-color: lightcoral;
+}
